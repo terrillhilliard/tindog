@@ -75,6 +75,12 @@ h2 {
 .dog {
   border-radius: 50%;
   width: 10%;
+  margin: 5%;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 #testimonials {
@@ -82,4 +88,28 @@ h2 {
   text-align: center;
   background-color: #ff4c68;
   color: #fff;
+}
+
+#pricing {
+  text-align: center;
+  padding: 10%;
+}
+
+
+#press {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#cta {
+  padding: 3%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#footer {
+  padding: 3%;
+  text-align: center;
+  background-color: #ff4c68;
 }
