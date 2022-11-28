@@ -30,6 +30,14 @@ h2 {
   color: #fff;
 }
 
+.cta-bottom {
+  font-family: "Montserrat";
+  color: #ffff;
+  font-weight: bold;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -97,7 +105,7 @@ h2 {
 
 
 #press {
-  padding: 7%;
+  padding-bottom: 2.5rem;
   text-align: center;
   background-color: #ff4c68;
 }
@@ -111,5 +119,18 @@ h2 {
 #footer {
   padding: 3%;
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #ffff;
+}
+
+@media (max-width: 1020px) {
+
+   #title {
+     text-align: center;
+   }
+
+
+  .image {
+    position: static;
+    transform: rotate(0);
+  }
 }
